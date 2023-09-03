@@ -1,0 +1,73 @@
+#about-hero {
+    margin-bottom: 168px;
+}
+
+.about-hero__container {
+    background-image: url('../../../img/about_hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1280px;
+    padding: 137px 0;
+    border-radius: 6px;
+}
+
+.about-hero__title {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 24px;
+
+    color: #FEFCF7;
+}
+
+.about-hero__text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.about-hero__content {
+    padding-left: 85px;
+    max-width: 445px;
+}
+
+@media screen and (max-width:1020px) {
+    .about-hero__container {
+        background-image: url('../../../img/about_hero-res.jpg');
+        margin: 0 39px;
+    }
+    
+    .about-hero__content {
+        padding-left: 58px;
+        max-width: 398px;
+    }
+
+    .about-hero__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .about-hero__container {
+        background-image: url('../../../img/about_hero-tel.jpg');
+        background-position: right;
+    }
+
+    .about-hero__title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .about-hero__content  {
+        padding-left: 0;
+        max-width: 279px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
